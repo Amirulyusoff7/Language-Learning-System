@@ -1,0 +1,42 @@
+/* Header styles */
+header {
+    background-color: #b94040;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .logo-img {
+    border-radius: 50%;
+  }
+
+  .header-buttons {
+    margin-right: 20px; /* Add margin to create space on the right */
+  }
+  .header-buttons button {
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 14px;
+    background-color: #a9b6ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .header-buttons button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Adjustments for the rest of the content */
+  body {
+    padding-top: 40px; /* Add space for the fixed header */
+  }
+  .logo-img {
+    background-color: transparent; /* Remove the square background box */
+}

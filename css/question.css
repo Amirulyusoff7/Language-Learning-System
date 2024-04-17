@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #FF0000;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #F5F5F5;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+form h2 {
+  margin-top: 0;
+}
+
+form img {
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin: 10px auto;
+}
+
+form audio {
+  display: block;
+  margin: 10px auto;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+form input[type="radio"] {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+form input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #0004fc;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
